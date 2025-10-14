@@ -7,6 +7,8 @@ import html1 from "../../assets/news.png";
 import html2 from "../../assets/spa.png";
 import react1 from "../../assets/react1.png";
 import react2 from "../../assets/react2.png";
+import react3 from "../../assets/react3.png";
+import react4 from "../../assets/react4.png";
 import java1 from "../../assets/spel.png";
 import java2 from "../../assets/butik.png";
 import node1 from "../../assets/node.png";
@@ -21,16 +23,18 @@ function Projects() {
       { title: "HTML/CSS", description: "News web page - Nyhetsbyrån", imgUrl: html1, link: "https://github.com/NataliaIancovscaia/HTML-project-Nyhetsbyran" },
     ],
     js: [
-      { title: "JavaScript", description: "Candy boutique — simple online shop with cart and checkout.", imgUrl: java2, link: "https://github.com/NataliaIancovscaia/Javascript-Onlineshop-Godisbutik" },
-      { title: "JavaScript", description: "Quiz game: guess the classmate's name.", imgUrl: java1, link: "https://github.com/NataliaIancovscaia/Javascript-Quiz-game--Who-is-this-" },
+      { title: "JavaScript", description: "Candy boutique — simple online shop with cart and checkout.", imgUrl: java2, link: "https://statuesque-sundae-e4caf3.netlify.app/" },
+      { title: "JavaScript", description: "Quiz game: guess the classmate's name.", imgUrl: java1, link: "https://quizspelwhyisthis.netlify.app" },
     ],
     node: [
       { title: "NodeJS", description: "REST API with authentication for a future photo app backend.", imgUrl: node1, link: "https://github.com/NataliaIancovscaia/Backend-f-r-en-framtida-foto-app" },
       { title: "NodeJS", description: "2-player realtime game: click on the virus fastest to score.", imgUrl: node2, link: "https://github.com/NataliaIancovscaia/Node-.js-2-player-realtids-spel" },
     ],
     react: [
-      { title: "React", description: "Star Wars encyclopedia — browse characters and movies.", imgUrl: react1, link: "https://github.com/NataliaIancovscaia/React-Swapi-" },
-      { title: "React", description: "TMDB interface — browse, filter and view movie details.", imgUrl: react2, link: "https://github.com/NataliaIancovscaia/React-Movie-Gallery" },
+      { title: "React", description: "Star Wars encyclopedia — browse characters and movies.", imgUrl: react1, link: "https://iancovscaiastarwarsencyclopedia.netlify.app" },
+      { title: "React", description: "TMDB interface — browse, filter and view movie details.", imgUrl: react2, link: "https://moviegallery200625.netlify.app" },
+      { title: "React", description: "Portfolio written in React", imgUrl: react3, link: "https://portofolioprojectnatalia.netlify.app" },
+      { title: "React", description: "En app som  fungerar som en matguide när man är hangry ", imgUrl: react4, link: "https://https://fed24hungryhub.netlify.app" },
     ],
   };
 
