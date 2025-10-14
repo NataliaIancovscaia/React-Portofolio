@@ -40,7 +40,9 @@
     font-size: 20px;
     font-weight: bold;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+    transition:
+      box-shadow 200ms ease-in-out,
+      transform 200ms ease-in-out;
   }
 
   button:hover {
@@ -53,8 +55,8 @@
   }
 }
 
-.colorModeContainer{
-    position: relative;
+.colorModeContainer {
+  position: relative;
 }
 
 .colorMode {
@@ -66,16 +68,16 @@
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
 }
-.colorMode:hover{
-   cursor: pointer;
+.colorMode:hover {
+  cursor: pointer;
 }
-.description{
-    max-width: 24ch;
+.description {
+  max-width: 24ch;
 }
-.info{
-    display:flex;
-    flex-direction: column;
-    gap: 20px;
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 @media (width >= 800px) {
   .container {
@@ -98,5 +100,3 @@
     }
   }
 }
-
-

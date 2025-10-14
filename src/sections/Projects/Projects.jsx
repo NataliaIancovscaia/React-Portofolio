@@ -19,22 +19,75 @@ function Projects() {
 
   const projects = {
     html: [
-      { title: "HTML/CSS", description: "Portfolio for Spa Salon", imgUrl: html2, link: "https://github.com/NataliaIancovscaia/HTML-Portofolio-SpaSalon" },
-      { title: "HTML/CSS", description: "News web page - Nyhetsbyrån", imgUrl: html1, link: "https://github.com/NataliaIancovscaia/HTML-project-Nyhetsbyran" },
+      {
+        title: "HTML/CSS",
+        description: "Portfolio for Spa Salon",
+        imgUrl: html2,
+        link: "https://github.com/NataliaIancovscaia/HTML-Portofolio-SpaSalon",
+      },
+      {
+        title: "HTML/CSS",
+        description: "News web page - Nyhetsbyrån",
+        imgUrl: html1,
+        link: "https://github.com/NataliaIancovscaia/HTML-project-Nyhetsbyran",
+      },
     ],
     js: [
-      { title: "JavaScript", description: "Candy boutique — simple online shop with cart and checkout.", imgUrl: java2, link: "https://statuesque-sundae-e4caf3.netlify.app/" },
-      { title: "JavaScript", description: "Quiz game: guess the classmate's name.", imgUrl: java1, link: "https://quizspelwhyisthis.netlify.app" },
+      {
+        title: "JavaScript",
+        description:
+          "Candy boutique — simple online shop with cart and checkout.",
+        imgUrl: java2,
+        link: "https://statuesque-sundae-e4caf3.netlify.app/",
+      },
+      {
+        title: "JavaScript",
+        description: "Quiz game: guess the classmate's name.",
+        imgUrl: java1,
+        link: "https://quizspelwhyisthis.netlify.app",
+      },
     ],
     node: [
-      { title: "NodeJS", description: "REST API with authentication for a future photo app backend.", imgUrl: node1, link: "https://github.com/NataliaIancovscaia/Backend-f-r-en-framtida-foto-app" },
-      { title: "NodeJS", description: "2-player realtime game: click on the virus fastest to score.", imgUrl: node2, link: "https://github.com/NataliaIancovscaia/Node-.js-2-player-realtids-spel" },
+      {
+        title: "NodeJS",
+        description:
+          "REST API with authentication for a future photo app backend.",
+        imgUrl: node1,
+        link: "https://github.com/NataliaIancovscaia/Backend-f-r-en-framtida-foto-app",
+      },
+      {
+        title: "NodeJS",
+        description:
+          "2-player realtime game: click on the virus fastest to score.",
+        imgUrl: node2,
+        link: "https://github.com/NataliaIancovscaia/Node-.js-2-player-realtids-spel",
+      },
     ],
     react: [
-      { title: "React", description: "Star Wars encyclopedia — browse characters and movies.", imgUrl: react1, link: "https://iancovscaiastarwarsencyclopedia.netlify.app" },
-      { title: "React", description: "TMDB interface — browse, filter and view movie details.", imgUrl: react2, link: "https://moviegallery200625.netlify.app" },
-      { title: "React", description: "Portfolio written in React", imgUrl: react3, link: "https://portofolioprojectnatalia.netlify.app" },
-      { title: "React", description: "En app som  fungerar som en matguide när man är hangry ", imgUrl: react4, link: "https://https://fed24hungryhub.netlify.app" },
+      {
+        title: "React",
+        description: "Star Wars encyclopedia — browse characters and movies.",
+        imgUrl: react1,
+        link: "https://iancovscaiastarwarsencyclopedia.netlify.app",
+      },
+      {
+        title: "React",
+        description: "TMDB interface — browse, filter and view movie details.",
+        imgUrl: react2,
+        link: "https://moviegallery200625.netlify.app",
+      },
+      {
+        title: "React",
+        description: "Portfolio written in React",
+        imgUrl: react3,
+        link: "https://portofolioprojectnatalia.netlify.app",
+      },
+      {
+        title: "React",
+        description: "En app som  fungerar som en matguide när man är hangry ",
+        imgUrl: react4,
+        link: "https://https://fed24hungryhub.netlify.app",
+      },
     ],
   };
 

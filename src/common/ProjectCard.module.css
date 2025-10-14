@@ -10,13 +10,20 @@
   align-items: center;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.06);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background 0.3s ease;
 }
 
 .card:hover {
   transform: translateY(-5px) scale(1.05);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(145deg, rgba(9, 135, 242, 0.1), rgba(9, 135, 242, 0.2));
+  background: linear-gradient(
+    145deg,
+    rgba(9, 135, 242, 0.1),
+    rgba(9, 135, 242, 0.2)
+  );
 }
 
 .card img {
@@ -24,7 +31,9 @@
   border-radius: 15px;
   margin-bottom: 15px;
   object-fit: cover;
-  transition: transform 0.3s ease, filter 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    filter 0.3s ease;
 }
 
 .card:hover img {
@@ -48,8 +57,7 @@
   margin: 0;
 }
 
-
-[data-theme='dark'] .card {
+[data-theme="dark"] .card {
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
@@ -72,5 +80,3 @@
     font-size: 16px;
   }
 }
-
-

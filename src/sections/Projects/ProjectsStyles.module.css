@@ -35,7 +35,7 @@
 .active {
   background: var(--btn-color);
   color: var(--btn-text-color);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .projectsContainer {
@@ -56,12 +56,12 @@
 
 @media (min-width: 1200px) {
   .projectsContainer {
-    gap: 50px; 
+    gap: 50px;
   }
 
   .tabButton {
     padding: 12px 30px;
     font-size: 16px;
-    border-radius: 25px; 
+    border-radius: 25px;
   }
 }
