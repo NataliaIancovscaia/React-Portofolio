@@ -86,7 +86,7 @@ function Projects() {
         title: "React",
         description: "En app som  fungerar som en matguide när man är hangry ",
         imgUrl: react4,
-        link: "https://https://fed24hungryhub.netlify.app",
+        link:"https://fed24hungryhub.netlify.app/",
       },
     ],
   };
