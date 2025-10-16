@@ -2,13 +2,30 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   text-align: center;
   height: 100dvh;
   min-height: 500px;
+  margin-bottom: 40px;
 
   .hero {
-    max-width: 200px;
+    max-width: 150px;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+  }
+
+  .description {
+    max-width: 24ch;
+    line-height: 1.5;
+    color: var(--text-color);
   }
 
   span {
@@ -16,18 +33,20 @@
     gap: 25px;
     justify-content: center;
 
-    a {
-      margin: 0;
+    a img {
+      width: 22px;
+      transition: transform 0.2s ease-in-out;
+    }
 
-      img {
-        width: 30px;
-      }
+    a img:hover {
+      transform: scale(1.1);
     }
   }
 
   a {
     width: fit-content;
     align-self: center;
+    text-decoration: none;
   }
 
   button {
@@ -35,23 +54,23 @@
     color: var(--btn-text-color);
     border: none;
     border-radius: 20px;
-    width: 126px;
+    width: 140px;
     height: 50px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition:
-      box-shadow 200ms ease-in-out,
-      transform 200ms ease-in-out;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.25);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
   }
 
   button:hover {
     transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
   }
 
   button:active {
     transform: translateY(2px);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
   }
 }
 
@@ -63,40 +82,34 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  width: 22px;
-  height: 22px;
+  width: 24px;
+  height: 24px;
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
 }
+
 .colorMode:hover {
-  cursor: pointer;
+  transform: scale(1.2);
 }
-.description {
-  max-width: 24ch;
-}
-.info {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-@media (width >= 800px) {
+
+@media (min-width: 800px) {
   .container {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
 
     .hero {
-      max-width: 350px;
-      width: 350px;
+      max-width: 300px;
+      width: 100%;
     }
   }
 }
 
-@media (width >= 1400px) {
+@media (min-width: 1400px) {
   .container {
     .hero {
-      max-width: 400px;
-      width: 400px;
+      max-width: 350px;
+      width: 100%;
     }
   }
 }

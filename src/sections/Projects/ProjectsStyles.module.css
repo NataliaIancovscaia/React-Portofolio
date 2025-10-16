@@ -5,6 +5,7 @@
   text-align: center;
   padding: 60px 20px;
   color: var(--text-color);
+  margin-top: 40px;
 }
 
 .tabs {
@@ -60,8 +61,9 @@
   }
 
   .tabButton {
-    padding: 12px 30px;
-    font-size: 16px;
-    border-radius: 25px;
+     padding: 14px 35px;
+    font-size: 18px;
+    border-radius: 28px;
   }
 }
+

@@ -64,19 +64,38 @@
 
 @media (min-width: 1200px) {
   .card {
-    max-width: 300px;
-    padding: 25px;
+    max-width: 320px;
+    padding: 30px;
   }
 
   .card img {
-    max-width: 240px;
+    max-width: 260px;
   }
 
   .card h3 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .card p {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .card {
+    max-width: 360px;
+    padding: 35px;
+  }
+
+  .card img {
+    max-width: 280px;
+  }
+
+  .card h3 {
+    font-size: 24px;
+  }
+
+  .card p {
+    font-size: 18px;
   }
 }
