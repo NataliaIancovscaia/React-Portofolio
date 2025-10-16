@@ -34,10 +34,10 @@ function Hero() {
         </h1>
         <h2>Frontend Developer</h2>
         <span>
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/NataliaIancovscaia" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="www.linkedin.com/in/natalia-iancovscaia-95b1a8223" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
