@@ -6,7 +6,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/cv_natalia_iancovscaia.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -28,6 +28,7 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
+        <span className={styles.badge}>Available for work</span>  
         <h1>
           Iancovscaia <br />
           Natalia

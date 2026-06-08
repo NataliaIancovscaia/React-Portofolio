@@ -1,7 +1,16 @@
 .container {
   text-align: center;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+
   p {
-    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82rem;
     color: var(--footer-text-color);
+    line-height: 1.6;
+  }
+
+  span {
+    color: var(--accent);
   }
 }
